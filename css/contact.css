@@ -1,0 +1,159 @@
+
+.contact .php-email-form #error_Msge {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+  display: none;
+  color: #ed3c0d;
+}
+.contact .php-email-form #errorEmail {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+  display: none;
+  color: #ed3c0d;
+}
+.contact .php-email-form #errorMessage {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+  display: none;
+  color: #ed3c0d;
+  
+}
+.contact .php-email-form #nameErrorMember {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+  display: none;
+  color: #ed3c0d;
+
+}
+.contact .php-email-form #errorPhoneMember {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+  display: none;
+  color: #ed3c0d;
+  
+}
+.contact .php-email-form #errorEmailMember {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+  display: none;
+  color: #ed3c0d;
+  
+}
+.contact .php-email-form #errorTitleMember {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+  display: none;
+  color: #ed3c0d;
+  
+}
+.contact .php-email-form #errorAddressMember {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+  display: none;
+  color: #ed3c0d;
+  
+}
+.contact .php-email-form #errorTypeMember {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+  display: none;
+  color: #ed3c0d;
+  
+}
+.errorContact {
+    width: 100%;
+    border-radius: 2%;
+    background-color: #dc3545;
+    color: #f0f0f0;
+    padding: 10px;
+    display: none;
+}
+.error-msg {
+    width: 100%;
+    /* margin-top: 10px;
+    margin-bottom: 20px; */
+    border-radius: 2%;
+    background-color: #dc3545;
+    color: #f0f0f0;
+    padding: 10px;
+    display: none;
+  }
+  .success-msg {
+    width: 100%;
+    /* margin-top: 10px;
+    margin-bottom: 20px; */
+    border-radius: 2%;
+    background-color: #28a745;
+    color: #f0f0f0;
+    padding: 10px;
+    display: none;
+  }
+  .successSubscriber {
+    width: 100%;
+    /* margin-top: 10px;
+    margin-bottom: 20px; */
+    border-radius: 2%;
+    background-color: #28a745;
+    color: #f0f0f0;
+    padding: 10px;
+    display: none;
+  }
+  #spinner:not([hidden]) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#spinner::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border: 2px solid #f3f3f3;
+  border-top: 3px solid #4ae3c6;
+  border-radius: 100%;
+  will-change: transform;
+  animation: spin 1s infinite linear
+}
+  #spinnerSubscriber:not([hidden]) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#spinnerSubscriber::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border: 2px solid #4ae3c6;
+  border-top: 3px solid #4ae3c6;
+  border-radius: 100%;
+  will-change: transform;
+  animation: spin 1s infinite linear
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
